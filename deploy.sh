@@ -7,4 +7,4 @@ bun run build
 
 echo "deploying files to server..."
 
-scp -P 55199 -r build/* USER@SERVER:/home/squeige/docker/nginx/data/html
+scp -P XXXX -r build/* USER@SERVER:/home/squeige/docker/nginx/data/html
